@@ -1,0 +1,42 @@
+.custom-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    background-color: black;
+    color: white;
+
+    .navbar-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .logo {
+            height: 40px;
+            margin-bottom: 0.25rem;
+        }
+
+        .lab-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #ba9a74;
+            text-align: center;
+        }
+    }
+
+    .navbar-right {
+        display: flex;
+        gap: 1.5rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+
+            &:hover {
+                color: #ba9a74;
+            }
+        }
+    }
+}
