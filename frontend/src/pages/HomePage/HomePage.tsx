@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaChevronDown } from "react-icons/fa";
 import './HomePage.scss'
+import JoinCTA from '../../components/JoinCTA/JoinCTA';
 
 function HomePage() {
   const navigate = useNavigate();
@@ -99,6 +100,8 @@ function HomePage() {
           </div>
         </div>
       </div>
+
+      <JoinCTA/>
     </>
   );
 }
