@@ -8,6 +8,7 @@ import FeaturedPage from './pages/FeaturedPage/FeaturedPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import PublicationsPage from './pages/PublicationsPage/PublicationsPage';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about-us' element={<AboutUsPage/>}/>
         <Route path='/publications' element={<PublicationsPage/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
