@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './AlumniPage.scss';
 import alumniData from '../../data/alumniData';
 

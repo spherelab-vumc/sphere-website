@@ -1,7 +1,7 @@
 import "./JoinCTA.scss";
 import { useNavigate } from "react-router-dom";
 
-import React from "react";
+// import React from "react";
 
 function JoinCTA() {
   const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./AboutUsPage.scss";
 import { FaLinkedin } from "react-icons/fa";
 import studentData from "../../data/studentData";

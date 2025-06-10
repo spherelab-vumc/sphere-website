@@ -1,7 +1,7 @@
 import './Navbar.scss';
 // import vumcLogo from '../../../public/Vumc-logo.jpg';
 
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
