@@ -15,11 +15,11 @@ function Navbar() {
 
         {/* Right Side of the navbar */}
         <div className='navbar-right'>
-            <a href="research">Research</a>
-            <a href="news">News</a>
-            <a href="featured">Featured</a>
-            <a href="about-us">About Us</a>
-            <a href="publications">Publications</a>
+            <a href="/research">Research</a>
+            <a href="/news">News</a>
+            <a href="/featured">Featured</a>
+            <a href="/about-us">About Us</a>
+            <a href="/publications">Publications</a>
         </div>
     </div>
   )
