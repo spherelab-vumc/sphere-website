@@ -1,0 +1,47 @@
+.alumni-page {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 4rem 2rem;
+    text-align: center;
+
+    .alumni-title {
+        font-size: 2.5rem;
+        color: #ba9a74;
+        margin-bottom: 0.5rem;
+    }
+
+    .alumni-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2.5rem;
+        color: #444;
+    }
+
+    .alumni-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .alumni-card {
+        background-color: white;
+        padding: 1rem 1.25rem;
+        border-left: 4px solid #fab555;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+
+        h4 {
+            font-size: 1.1rem;
+            color: #ba9a74;
+            margin-bottom: 0.25rem;
+        }
+
+        p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #666;
+        }
+    }
+}

@@ -1,3 +1,15 @@
-.hello-scss {
-  background-color: green;
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-wrapper > main {
+  flex: 1;
 }
