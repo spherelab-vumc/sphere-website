@@ -36,18 +36,23 @@ const studentData = [
         image: '/students/Xialan.jpg',
     },
     {
-        name: 'Qiantong Wang',
-        degree: 'PhD Student',
-        timeline: '2024 - Present',
-        image: '/students/qiantongwang.png',
-    },
-    {
         name: 'Sarvech Qadir',
         degree: 'PhD Student',
         timeline: '2024 - Present',
         image: 'Vanderbilt.webp',
     },
-
+    {
+        name: 'Juming Xiong',
+        degree: 'PhD Student',
+        timeline: '2025 - Present',
+        image: 'Vanderbilt.webp',
+    },
+    {
+        name: 'Mihir Vaidya',
+        degree: 'Application Developer',
+        timeline: '2025 - Present',
+        image: '/students/Mihir.JPG'
+    }
 ];
 
 export default studentData;

@@ -11,6 +11,7 @@ const alumniData = [
     {name: 'Obi Ndidiamaka', timeline: '2023'},
     {name: 'Jessie Yang', timeline: '2023'},
     {name: 'Leya Wang', timeline: '2023'},
+    {name: 'Qiantong Wang', timeline: '2025'}
 ];
 
 export default alumniData;
