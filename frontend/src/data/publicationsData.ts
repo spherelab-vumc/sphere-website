@@ -205,7 +205,7 @@ const publicationsData: YearGroup[] = [
                 title: "A Systematic Literature Review of Machine Learning in Online Personal Health Data.",
                 authors: "Yin, Zhijun; Sulieman, Lama; Malin, Bradley A.",
                 keywords: ["machine learning", "personal health data", "literature review"],
-                source: "Journal of the American Medical Informatics Association, 26(6): 561–576, 2019",
+                source: "Journal of the American Medical Informatics Association, 26(6): 561-576, 2019",
                 link: "https://pubmed.ncbi.nlm.nih.gov/30908576/"
             },
         ]
